@@ -181,7 +181,7 @@ function resets(){
    var phone= document.getElementById("phone");
    var address= document.getElementById("address");
    var password=document.getElementById("password");
-    var cpassword=document.getElementById("cpasswor");
+    var cpassword=document.getElementById("cpassword");
     var prog=document.getElementById("myprogress");
     var elem=document.getElementById("mybar");
     document.getElementById("nameerror").innerHTML="";
@@ -207,7 +207,13 @@ function resets(){
    //elem.style.visibility="hidden";
 }
 function passwordcheck(){
-    if(password.value!="" && password.value.length<=5){
+  var prog=document.getElementById("myprogress");
+  var elem=document.getElementById("mybar");
+  if(password.value=="" || password.value.length<5){
+    prog.style.visibility="hidden";
+    elem.style.visibility="hidden";
+  }
+    if(password.value!="" && password.value.length>=5){
         var prog=document.getElementById("myprogress");
         var elem=document.getElementById("mybar");
         prog.style.visibility="visible";
