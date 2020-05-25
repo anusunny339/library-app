@@ -93,24 +93,36 @@ img {
     border: 0;
   }
   #f1{
-      height:100px;
-      margin-top: 25px;
-  }
-  f1{
-     
-      color: rgb(102, 96, 96);
-      font-size: x-large;
-      font-weight:bolder;
-      margin-left: 11%;
-     
-     
-     
-  }
-  f2{
-    margin-left: 12%;
-     padding:0px;  
-  }
+    height:100px;
+    margin-top: 750px;
+    padding: 0px 0px;
+    padding-left: 0px;
+    padding-top: 12px;
+}
+#f1 a{
+  display:inline-block;
+  text-align: center;
   
+  transition: all 0.3s ease;
+  color: white;
+ 
+}
+f1{
+   
+    color: rgb(102, 96, 96);
+    font-size: x-large;
+    font-weight:bolder;
+    padding-top: 12px;
+    margin-left: 29%;
+   
+   
+}
+f2{
+  margin-left: 29%;
+   padding:0px 0px; 
+  
+}
+
   .fa {
     
     font-size: 20px;

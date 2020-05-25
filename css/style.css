@@ -1,7 +1,7 @@
 body{
     padding:0;
     position: 0;
-   /* background-color: rgb(197, 187, 187);*/
+  /* background-color: rgb(197, 187, 187);*/
     background-image: url('/images/ll.jpg');
 
 }
@@ -101,9 +101,10 @@ img {
   }
   #f1{
       height:100px;
-      margin-top: 25px;
+      margin-top: 490px;
       padding: 0px 0px;
       padding-left: 0px;
+      padding-top: 12px;
   }
   #f1 a{
     display:inline-block;
@@ -118,12 +119,13 @@ img {
       color: rgb(102, 96, 96);
       font-size: x-large;
       font-weight:bolder;
-      margin-left: 19%;
+      padding-top: 12px;
+      margin-left: 39%;
      
      
   }
   f2{
-    margin-left: 19%;
+    margin-left: 39%;
      padding:0px 0px; 
     
   }
