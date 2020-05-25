@@ -49,7 +49,7 @@ function check(){
     emails.style.border="2px solid black";
 }
 else{
- document.getElementById("emailerror").innerHTML="* email not valid";
+ document.getElementById("emailerror").innerHTML="* email id not valid";
  emails.style.border="2px solid red";
  error++; 
 }
@@ -136,7 +136,7 @@ if(password.value.length>=5)
     }   
  
   else{
-    document.getElementById("passworderror").innerHTML="must contain 5";
+    document.getElementById("passworderror").innerHTML="password must contain at least 5 characters";
     password.style.border="2px solid red";
     prog.style.visibility="hidden";
      elem.style.visibility="hidden";
